@@ -4,7 +4,7 @@ class config:
     API_HASH = "e63f5284308097bc0e8751316dcfa48b"
     DATABASE_URL = "postgres://yqohzxjzcjlont:cc5d0318c95516e93d870316c2fa8f376b1058ee7386b9a6845a3689a68f0d46@ec2-44-209-24-62.compute-1.amazonaws.com:5432/d8ufnlphposo5u"
     SUDO_USERS = "5201479132" # Separated by space.
-    SUPPORT_CHAT_LINK = "https://t.me/+Kb8Fv0nLsqg5NmU1"
+    SUPPORT_CHAT_LINK = "https://t.me/Telly_BotzSupport"
     DOWNLOAD_DIRECTORY = "./downloads/"
     G_DRIVE_CLIENT_ID = "769437843954-vj7hsaa3l8get6n61e0ampt83hp8utaf.apps.googleusercontent.com"
     G_DRIVE_CLIENT_SECRET = "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"
@@ -21,7 +21,7 @@ class BotCommands:
   YtDl = ['ytdl', 'youtube']
 
 class Messages:
-    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
+    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help join our update channel http://t.me/Telly_Botz developer http://t.me/annoying_boy.__"
 
     HELP_MSG = [
         ".",
@@ -38,7 +38,7 @@ class Messages:
         "**Rules & Precautions**\n__1. Don't copy BIG Google Drive Files/Folders. It may hang the bot and your files maybe damaged.\n2. Send One request at a time unless bot will stop all processes.\n3. Don't send slow links @transload it first.\n4. Don't misuse, overload or abuse this free service.__",
         
         # Dont remove this ↓ if you respect developer.
-        "**Powered by @IDNCoder**"
+        "**Powered by @annoying_boy**"
         ]
      
     RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after 24 hours.__"
